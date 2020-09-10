@@ -1,0 +1,9 @@
+#include "randonnumgenerator.h"
+
+RandonNumGenerator::RandonNumGenerator()
+{
+    P_model= ProbabilityModel::Normal;
+    cal_mode= CalculateMode::SpaceCritical;
+}
+
+Ramdom
